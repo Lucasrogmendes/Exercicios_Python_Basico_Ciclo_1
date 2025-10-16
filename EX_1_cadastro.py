@@ -18,3 +18,23 @@
 
 # ------------------------------------------ ESCREVA SEU CÓDIGO ABAIXO -----------------------------------------------------------
 
+
+nome = input("Digite seu nome: ")
+idade = input("Digite sua idade: ")
+email = input("Digite seu e-mail: ")
+senha = input("Digite sua senha: ")
+
+
+print("| ------------------------------ |")
+print("| ---------- CADASTRO ---------- |")
+print("| ------------------------------ |")
+print(f"| Nome: {nome}")
+print(f"| Idade: {idade}")
+print(f"| Email: {email}")
+print(f"| Senha: {senha}")
+
+print("| ------------------------------ |")
+print("| ----- USUÁRIO CADASTRADO ----- |")
+print(f"| Seja bem vindo(a) {nome}!")
+print(f"| Email: {email}")
+print("| ------------------------------ |")
